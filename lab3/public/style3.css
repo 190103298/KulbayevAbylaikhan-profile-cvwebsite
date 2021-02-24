@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(40, 40, 226);
+}
+
+.index {
+    opacity: 0;
+}
+.icon {
+    width: 5%;
+    background: transparent;
+    float: left;
+    cursor: pointer;
+}
+.home {
+    color: snow;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1050px;
+    padding-top: 15px;
+    font-family: Impact, fantasy;
+    font-size: 23px;
+}
+ul:hover {
+    cursor: pointer;
+    background-color: red;
+}
+ul {
+    padding-left: 3px;
+}
+
+
+
+.me {
+    border-radius: 600px;
+    width: 25%;
+    margin: 70px 0 0 630px;
+}
+.text h2, p {
+    text-align: center;
+    color: snow;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+.text p {
+    font-size: 25px;
+    word-break: keep-all;
+    padding-top: 30px;
+}
+.text {
+    margin-left: 450px;
+    margin-right: 460px;
+}
+
+.me2 {
+    border-radius: 600px;
+    width: 25%;
+    position: relative;
+}
+.text2 {
+    text-align: center;
+    color: snow;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.text2 p {
+    font-size: 20px;
+}
+.index2 {
+    opacity: 0;
+}
+
+
