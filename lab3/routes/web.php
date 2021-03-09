@@ -28,6 +28,13 @@ Route::get('/contact', function () {
 })->name('contact');
 
 Route::get('post/create', function () {
-    DB::table('clients')->insert([
+    DB::table('post')->insert([
+        'title' => 'MidTerm Exam',
+        'body' => 'Lorem Ipsum....'
         ]);
+});
+
+Route::get('post', function () {
+    $post = Post::find(1);
+    return $post;
 });
