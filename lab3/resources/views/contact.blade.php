@@ -19,9 +19,11 @@
     </div>
     <div class="reg">
     <div class="index3">
-        <p>Your full name:</p>
+        <p>Your name and surname:</p>
         <input type="text" name="" id="name">
         <p>Your e-mail</p>
+        <input type="text" name="" id="name">
+        <p>Your photo:</p>
         <input type="text" name="" id="name">
         <p>Your message:</p>
         <input type="text" name="" class="message"><br>

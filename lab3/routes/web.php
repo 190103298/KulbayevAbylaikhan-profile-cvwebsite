@@ -49,3 +49,6 @@ Route::get('blog/create', function() {
 Route::post('blog/create', [BlogController::class, 'store'])->name('add-form');
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
+
+Route::get('/uploadfile', 'UploadFileController@index');
+Route::post('/uploadfile', 'UploadFileController@showUploadFile');
